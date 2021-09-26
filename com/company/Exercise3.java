@@ -2,12 +2,13 @@ package com.company;
 import java.util.Scanner;
 
 public class Exercise3 {
-    public static void mainExercise(String[]arg){
+    public void mainExercise(){
+        System.out.println("Tthis is where the results from exercise 3 are being presented");
         Scanner inputString = new Scanner(System.in);
         System.out.print("Input a string: ");
         String word = inputString.nextLine();
         System.out.print("The middle character in the string: " + middle(word)+"\n");
-    }
+        }
     public static String middle(String word){
         int position;
         int length;

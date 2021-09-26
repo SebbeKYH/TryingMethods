@@ -24,7 +24,9 @@ public class Main {
 
         System.out.println("The average value is " + average(x, y, z));
 
-        Exercise3 inputAverage = new Exercise3();
+        //Present values from class Exercise 3
+        Exercise3 a = new Exercise3();
+        a.mainExercise();
         }
         //Method for detemining the smallest number
     public static double smallest(double x, double y, double z)
