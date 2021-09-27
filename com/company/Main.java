@@ -21,6 +21,9 @@ public class Main {
         Exercise3 presentation3 = new Exercise3();
         presentation3.mainExercise3();
 
+        //Present values from class Exercise 4
+        Exercise4 presentation4 = new Exercise4();
+        presentation4.mainExercise4();
         }
 
 }
