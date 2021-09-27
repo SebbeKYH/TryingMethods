@@ -2,8 +2,8 @@ package com.company;
 import java.util.Scanner;
 
 public class Exercise3 {
-    public void mainExercise(){
-        System.out.println("Tthis is where the results from exercise 3 are being presented");
+    public void mainExercise3(){
+        System.out.println("This is where the results from exercise 3 are being presented");
         Scanner inputString = new Scanner(System.in);
         System.out.print("Input a string: ");
         String word = inputString.nextLine();

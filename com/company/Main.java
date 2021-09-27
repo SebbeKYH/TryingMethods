@@ -9,39 +9,18 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
-        //int firstNumber=input.nextInt();
-        //int divided=divideMetod(firstNumber);
-        //System.out.println(divided);
+        //Present value from class Exercise 1
+        Exercise1 presentation1 = new Exercise1();
+        presentation1.mainExercise1();
 
-        //Exercise 1 Write a Java method to find the smallest number among three numbers
-        System.out.print("Input the first number: ");
-        double x = input.nextDouble();
-        System.out.print("Input the Second number: ");
-        double y = input.nextDouble();
-        System.out.print("Input the third number: ");
-        double z = input.nextDouble();
-        System.out.print("The smallest value is " + smallest(x, y, z)+"\n" );
-
-        System.out.println("The average value is " + average(x, y, z));
+        //Present value from class Exercise 2
+        Exercise2 presentation2 = new Exercise2();
+        presentation2.mainExercise2();
 
         //Present values from class Exercise 3
-        Exercise3 a = new Exercise3();
-        a.mainExercise();
-        }
-        //Method for detemining the smallest number
-    public static double smallest(double x, double y, double z)
-    {
-        //Troligtvis kan bara match.klassen jämföra två nummer mot varandra.
-        return Math.min(Math.min(x, y), z);
-    }
-        //Exercise 2 Write a Java method to compute the average of three numbers
-    public static double average(double x, double y, double z){
-        return (x + y + z) / 3;
-    }
+        Exercise3 presentation3 = new Exercise3();
+        presentation3.mainExercise3();
 
-    public static int divideMetod (int firstNumber){
-        int results =(firstNumber/2);
-        return results;
         }
 
 }
